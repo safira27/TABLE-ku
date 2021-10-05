@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabel</title>
 </head>
-<body>
-    <table border="1" cellspacing="0" cellpadding="2"><!--<table> mendefinisikan sebuah table-->
+<body><!--menggunakan align center agar tampilannya berada ditengah-->
+    <table align ="center" border="1" cellspacing="0" cellpadding="2"><!--<table> mendefinisikan sebuah table-->
         <caption><h1>INVESTASI IMPIANKU</h1></caption>
     <thead><!--untuk membungkus konten bagian isi atau tubuh dari tabel-->
         <tr>
-            <th rowspan="2">No.</th><!--<th> untuk mendefinisikan header di dalam tabel-->
-            <th rowspan="2">Sumber Dana/Kebutuhan</th>
-            <th colspan="2">Target Waktu</th>
-            <th colspan="2">Angaran Dana (RP)</th>
+            <th bgcolor="grey" rowspan="2">No.</th><!--<th> untuk mendefinisikan header di dalam tabel-->
+            <th bgcolor="grey" rowspan="2">Sumber Dana/Kebutuhan</th>
+            <th bgcolor="grey" colspan="2">Target Waktu</th>
+            <th bgcolor="grey" colspan="2">Angaran Dana (RP)</th>
             </tr>
             <tr>
-            <th>Tahun</th>
-            <th>Bulan</th>
-            <th>Masuk</th>
-            <th>Keluar</th>
+            <th bgcolor="silver">Tahun</th>
+            <th bgcolor="silver">Bulan</th>
+            <th bgcolor="silver">Masuk</th>
+            <th bgcolor="silver">Keluar</th>
         </tr>
 
     </thead>
@@ -77,9 +77,9 @@
                 <td><b>16.000.000</b></td>
                 <td><b>42.000.000</b></td>
             </tr>
-            <tr>
-                <td colspan="4"><b>Kekurangan</b></td>
-                <td colspan="4"><b>26.000.000</b></td>
+            <tr><!--menambah elemen bgcolor agar tampilan tidak terlihat kaku-->
+                <td bgcolor="silver" colspan="4"><b>Kekurangan</b></td>
+                <td bgcolor="silver" colspan="4"><b>26.000.000</b></td>
             </tr>
         </tr>
     </tfoot>
